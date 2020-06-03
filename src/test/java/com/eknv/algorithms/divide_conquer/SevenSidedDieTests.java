@@ -32,7 +32,7 @@ public class SevenSidedDieTests {
         /**
          * allowed deviation = 20%
          */
-        double allowedDeviation = 0.25;
+        double allowedDeviation = 0.2;
 
         /**
          * testing that the generated numbers are well distributed

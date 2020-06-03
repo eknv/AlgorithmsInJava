@@ -16,6 +16,14 @@ public class Utils {
         arr[index2] = value1;
     }
 
+    public static Integer multiply(Integer number1, Integer number2) {
+
+        Assert.notNull(number1, "number1");
+        Assert.notNull(number2, "number2");
+
+        return BigDecimal.valueOf(number1).multiply(BigDecimal.valueOf(number2), MathContext.DECIMAL128).intValue();
+    }
+
     public static double divide(Integer number1, Integer number2) {
 
         validateDivisionInputs(number1, number2);
