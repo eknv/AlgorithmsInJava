@@ -1,4 +1,4 @@
-package com.eknv.algorithms.others;
+package com.eknv.algorithms.dynamic;
 
 /**
  * Ways to Traverse a Grid
