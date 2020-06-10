@@ -3,7 +3,8 @@ The repo contains some interesting data structures, algorithms and respective co
 
 The challenges demonstrate possible and efficient approaches how to tackle different kind of algorithmic problems.
 
-Many thanks goes to sources like InterviewCake, GeeksForGeeks, LeetCode, Eechseries for providing helpful resources.
+Many thanks goes to sources like InterviewCake, GeeksForGeeks, LeetCode, Techseries.dev etc. 
+for providing the questions and other helpful resources.
 
 Data structures:
 - Arrays
