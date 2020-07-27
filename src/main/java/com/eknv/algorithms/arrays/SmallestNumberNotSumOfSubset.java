@@ -23,7 +23,7 @@ public class SmallestNumberNotSumOfSubset {
         Assert.notNull(numbers, "numbers");
 
         if (numbers.length == 0) {
-            throw new RuntimeException("The list cannot be empty");
+            throw new IllegalArgumentException("The list cannot be empty");
         }
 
         validateIsSorted(numbers);
@@ -88,7 +88,7 @@ public class SmallestNumberNotSumOfSubset {
         for (int i = 0; i < numbers.length; i++) {
 
             if (numbers[i] < prevValue) {
-                throw new RuntimeException("This array is not sorted");
+                throw new IllegalArgumentException("This array is not sorted");
             } else {
                 prevValue = numbers[i];
             }
